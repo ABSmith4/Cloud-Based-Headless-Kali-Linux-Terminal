@@ -6,7 +6,7 @@ This project involves setting up a headless Kali Linux terminal on a Virtual Pri
 
 If you've ever used a virtual machine, you may have heard your computer's fans begin to sound like a 747 engine. So, if you're like me and would prefer to prolong the life of your devices, it pays to reduce the strain on your local machine's RAM and CPU during cyber challenges. Utilizing exterior hardware through a secure shell remote connection is not only faster, but also more responsive than the host dependent virtual machine.
 
-![Project Success](images/Final_Redacted.jpg)
+![Project Success](images/Home-Redacted.png)
 
 ## Key Features
 - Custom Kali Linux disk image creation using VirtualBox.
