@@ -9,7 +9,7 @@ If you've ever used a virtual machine, you may have heard your computer's fans b
 ![Project Success](images/Home-Redacted.png)
 
 ## Key Features
-- Custom Kali Linux disk image creation using VirtualBox.
+- Custom Kali Linux image creation using VirtualBox.
 - Optimized headless operation for minimal resource usage.
 - Secure remote access configuration with SSH and firewall settings.
 - Regular system updates and performance optimization.
