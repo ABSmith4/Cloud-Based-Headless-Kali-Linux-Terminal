@@ -6,7 +6,7 @@ This project involves setting up a headless Kali Linux terminal on a Virtual Pri
 
 If you've ever used a virtual machine, you may have heard your computer's fans begin to sound like a 747 engine. So, if you're like me and would prefer to prolong the life of your devices, it pays to reduce the strain on your local machine's RAM and CPU during cyber challenges. Utilizing exterior hardware through a secure shell remote connection is not only faster, but also more responsive than the host dependent virtual machine.
 
-![Project Success](images/Home-Redacted.png)
+![Project Success](/Images/Home-Redacted.png)
 
 ## Key Features
 - Custom Kali Linux image creation using VirtualBox.
@@ -16,3 +16,6 @@ If you've ever used a virtual machine, you may have heard your computer's fans b
 
 ## Getting Started
 To get started with this project, fork the repository and follow the setup instructions.
+
+## Full Documentation
+For a detailed step-by-step guide, please visit the [full documentation](https://absmith4.github.io/Cloud-Based-Headless-Kali-Linux-Terminal/).
