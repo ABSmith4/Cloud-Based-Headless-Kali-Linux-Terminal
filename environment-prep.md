@@ -12,11 +12,11 @@ By default, Kali Linux ISOs come with a desktop environment. For our purposes, w
 
 * Create a new virtual machine setting the operating system to Debian 64-bit. 
 
-![Operating System](/Images/OS_setup.png)
+![Operating System]({{"/Images/OS_setup.png" | relative_url }} )
 
 Note: Check the box for unattended installation as we will not be using it.
 
-![Disk Allocation](/Images/Disk_allocation.png)
+![Disk Allocation]({{"/Images/Disk_allocation.png" | relative_url }} )
 
 * Allocate at least 20 GB for the HDD.
 
