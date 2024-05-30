@@ -4,7 +4,7 @@
 
 ![installer](/Images/Installer.png)
 
-![Language](/Images/Language.png )
+![Language](/Images/Language.png)
 
 ![Hostname](/Images/hostname.png)
 
