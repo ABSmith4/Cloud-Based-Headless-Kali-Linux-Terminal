@@ -12,11 +12,11 @@ By default, Kali Linux ISOs come with a desktop environment. For our purposes, w
 
 * Create a new virtual machine setting the operating system to Debian 64-bit. 
 
-![Operating System]({{"/Images/OS_setup.png" | relative_url }} )
+![Operating System](/https://github.com/ABSmith4/Cloud-Based-Headless-Kali-Linux-Terminal/blob/bec1385629fc92f7191e298ef23d9b2bfc532705/Images/OS_setup.png)
 
 Note: Check the box for unattended installation as we will not be using it.
 
-![Disk Allocation]({{"/Images/Disk_allocation.png" | relative_url }} )
+![Disk Allocation](https://github.com/ABSmith4/Cloud-Based-Headless-Kali-Linux-Terminal/blob/bec1385629fc92f7191e298ef23d9b2bfc532705/Images/Disk_allocation.png)
 
 * Allocate at least 20 GB for the HDD.
 
@@ -26,4 +26,4 @@ Select finish to create the .vdi (virtual disk image) that will be uploaded into
 
 * In order to boot into the installer when the VM starts, we need to attach the mini.iso into the storage controller.
 
-![ISO Mount](/Images/iso-mount.png)
+![ISO Mount](https://github.com/ABSmith4/Cloud-Based-Headless-Kali-Linux-Terminal/blob/bec1385629fc92f7191e298ef23d9b2bfc532705/Images/iso-mount.png)
