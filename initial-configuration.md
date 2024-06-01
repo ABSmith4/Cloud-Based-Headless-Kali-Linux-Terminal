@@ -75,4 +75,3 @@ touch /home/user/.ssh/authorized_keys && nano /home/user/.ssh/authorized_keys 
 </pre>
 
 Place the public key you created in this file, then save and exit.
-

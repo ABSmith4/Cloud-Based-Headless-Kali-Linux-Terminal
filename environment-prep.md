@@ -27,3 +27,6 @@ Select finish to create the .vdi (virtual disk image) that will be uploaded into
 * In order to boot into the installer when the VM starts, we need to attach the mini.iso into the storage controller.
 
 ![ISO Mount](/Images/iso-mount.png)
+
+
+[Turn the page](initial-configuration.md)

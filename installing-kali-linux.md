@@ -74,3 +74,5 @@ Now that installation is complete, we have to unaattach the iso file from virtua
 
 Congratulations! You have successfully installed Kali Linux on this image.
 
+
+[Turn the page.](initial-configuration.md)

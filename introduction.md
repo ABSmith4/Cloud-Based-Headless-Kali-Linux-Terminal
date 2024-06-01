@@ -13,7 +13,4 @@ This documentation covers essential steps including system requirements, environ
 Suitable for experienced Linux users and system administrators
 
 
-
-
-
-
+[Turn the page.](system-requirements.md)
