@@ -5,12 +5,16 @@ Now that installation is complete and the system has been rebooted, we need to l
 ![Login](/Images/Predeployment/Login.png)
 
 <pre>
-#login as a super user to save yourself a little time.
+# login as a super user to save yourself a little time.
+
 sudo su
 
-#update your dependencies
+# update your dependencies
+
 apt update && apt full-upgrade -y
 </pre>
+
+## Network Configuration
 
 You may have noticed that your updates failed with a "Temporary failure in resolving 'http.kali.org'"
 
@@ -50,16 +54,25 @@ When the message is received by the server, it replies back to your machine (bas
 
 The offer message is then received by your machine and then responds with a DHCP request message for the offered IP.  Next, the DHCP server replies with an acknowledgement message, letting you know that the IP can be used by your machine at this point. Then, your network interface is configured for the assigned IP and you can connect to other IP-based servers.
 
-NOTE: If you're a Redhat or a CentOS, you may be more familiar with `dhcpd`, but no need to worry as they are very similar. The only difference is that `dhclient` will exit immediately if no broadcast interfaces are found, whereas `dhcpd` will continue until an interface has been found.
+NOTE: If you're a Redhat or a CentOS use, you may be more familiar with `dhcpd`, but no need to worry as they are very similar. The only difference is that `dhclient` will exit immediately if no broadcast interfaces are found, whereas `dhcpd` will continue until an interface has been found.
 
-If you would like to read up on more about either one of these packages, feel free to explore the "man" pages.
+If you would like to read up on more about either one of these packages, feel free to explore the manual, or "man" pages for short.
+
+`man dhclient` or `man dhcpd`
+
+## Priviledged User Access
+
+As our first step into system security, we need to provide our user that we created during [installation](installing-kali-linux.md) with the keys to the car. 
+
+First, create the authorized keys file under your user name to ensure the remote connection will be successful. If not, you will encounter an access error in the form of `Permission Denied (publickey)`.
+
+Therefore, we need to place our public key in our user directory instead of root. The directory traversal will look a little like this /home/[username]/.ssh/authorized_keys. 
 
 <pre>
-man dhclient
+Mkdir /home/user/.ssh/
 
-#or
-
-man dhcpd
+touch /home/user/.ssh/authorized_keys && nano /home/user/.ssh/authorized_keys 
 </pre>
 
+Place the public key you created in this file, then save and exit.
 
