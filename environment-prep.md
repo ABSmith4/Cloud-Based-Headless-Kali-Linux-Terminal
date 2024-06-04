@@ -29,4 +29,4 @@ Select finish to create the .vdi (virtual disk image) that will be uploaded into
 ![ISO Mount](/Images/iso-mount.png)
 
 
-[Turn the page](initial-configuration.md)
+[Turn the page.](initial-configuration.md)
