@@ -27,7 +27,7 @@ Click on your created droplet and click on "Access" and scroll down. We will lau
 
 Now, login like we would normally then grant yourself superuser privileges.
 
-![login](/Images/Predeployment/Login.png)
+![login](/Images/Predeployment/LoginConsole.png)
 
 Open your global sshd configuration file. `nano /etc/ssh/sshd_config/`
 
