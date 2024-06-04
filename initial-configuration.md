@@ -75,3 +75,47 @@ touch /home/user/.ssh/authorized_keys && nano /home/user/.ssh/authorized_keys 
 </pre>
 
 Place the public key you created in this file, then save and exit.
+
+Now back to the ACTION!
+
+## Updates and Dependencies
+
+`apt update && apt full-upgrade -y`
+
+Next, we need to install the cloud-init package to enable the cloud provider to automatically configure the server for us.
+
+<pre>
+apt install -y cloud-init
+
+sh -c "echo 'datasource_list: [ DataSourceConfigDrive, DigitalOcean, Nocloud, None ]' > /etc/cloud/cloud.cfg.d/99_digitalocean.cfg"
+
+systemctl enable cloud-init --now
+</pre>
+
+And of course we need to install the open ssh package in order to enable remote acces to the server.
+
+`apt install -y openssh-server && systemctl enable ssh.service --now`
+
+For custom images, we must remove the root password and create a root ssh folder.
+
+<pre>
+passwd -d root
+
+mkdir -p /root/.ssh/
+</pre>
+
+Now cleanse your palate and cut the lights off!
+
+<pre>
+apt autoremove
+
+apt autoclean
+
+rm -rf /var/log/*
+
+history -c
+
+poweroff
+</pre>
+
+[Turn the page.](deploying-vps.md)
