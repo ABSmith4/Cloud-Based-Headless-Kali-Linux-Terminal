@@ -33,7 +33,7 @@ Open your global sshd configuration file. `nano /etc/ssh/sshd_config/`
 
 First, for security best practices we will prohibit ANYONE from logging in as root. Superuser is the only we will be accessing root privileges in our server.
 
-Even though this server will be utilized for remote penetration testing, let's limit the attack surface of ther server just in case one of our fellow hackers finds our IP. Find the location in the file where you see `PermitRootLogin` and make sure it has "no" next to it.
+Even though this server will be utilized for remote penetration testing, let's limit the attack surface just in case one of our fellow hackers finds our IP. Find the location in the file where you see `PermitRootLogin` and make sure it has "no" next to it.
 
 Next, you'll need to provide your non-root user the ability to access the server. At the end of the file, type:
 
