@@ -18,4 +18,4 @@ If you've ever used a virtual machine, you may have heard your computer's fans b
 To get started with this project, fork the repository and follow the setup instructions.
 
 ## Full Documentation
-For a detailed step-by-step guide, please visit the [full documentation](https://absmith4.github.io/Cloud-Based-Headless-Kali-Linux-Terminal/).
+For a detailed step-by-step guide, please visit the [full documentation](https://sysharmonics.github.io/Cloud-Based-Headless-Kali-Linux-Terminal/).
